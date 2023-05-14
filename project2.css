@@ -1,0 +1,716 @@
+/* Project 2 CSS */
+
+
+.col-xs-12{
+    padding: 2%;
+    background-color: rgb(240, 240, 240);
+  border: #ffffff;
+  border-width: 10px;
+  border-style: solid;
+  }
+  
+  .total-header {
+    font-style: italic;
+    font-size: 28px;
+    font-weight: bold;
+    fill: #d73038
+  }
+  .total{
+    font-size: 20px;
+    font-weight: bold;
+  }
+  .total-bold{
+    font-size: 24px;
+    font-weight: bold;
+    fill: #477CB2;}
+  /*Artem CSS*/
+  /* svg {
+    background: rgb(240, 240, 240);
+  }
+  */
+  .chart-title {
+    font-family: "Barlow Condensed", sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    color: #ed1c24;
+    fill: #ED1C24;
+  }
+  .naming {
+    font-family: "Markazi Text", serif;
+    font-size: 1.5rem !important;
+  }
+  .selected {
+    opacity: 1 !important;
+    stroke: black;
+    stroke-width: 2px;
+    r: 5;
+  }
+  .selected_4 {
+    opacity: 1 !important;
+    stroke: black;
+    stroke-width: 2px;
+    r: 5;
+  }
+  .barC5 {
+    fill: #ec9a29;
+  }
+  
+  .containerC5 {
+    max-width: 600px;
+    display: grid;
+    place-items: center;
+  }
+  
+  #buttonC5 {
+    background-color: rgb(240, 240, 240);
+    /* width: 100%; */
+    font-size: 20px;
+    border-width: 0px;
+  }
+  .icon {
+    font-size: 20px;
+  }
+  
+  /* #subtitleC3{
+  
+    display:none;
+    } */
+  
+  @media only screen and (max-width: 600px) {
+    #buttonText {
+      display: none;
+    }
+    .icon {
+      font-size: 30px;
+    }
+  } */
+  
+  
+    /*Artem CSS End*/
+  
+  
+  
+  
+  .container-charts {
+    margin-bottom: 5%;
+    background: #477CB2;
+    border: #106184 solid 8px;
+    margin-left: 0%;
+  }
+  #chart3Icons {
+    /* width: 100%; */
+  display:none;
+  }
+  /* #chart3Icons ul li img.c3Icon {
+    margin: 3% !important;
+    float: left;
+    width: 13%;
+     height: 13%; 
+  } */
+  
+  .clear {
+    clear: both;
+  }
+  
+  body {
+    font-family: "Dancing Script", cursive;
+    font-weight: bold;
+    font-size: 1.4em;
+  }
+  img {
+    width: 110px;
+    height: 110px;
+    margin: -10px;
+  }
+  .navbar {
+    background-color: #d5e8fc;
+    height: 120px;
+  }
+  .navbar-light .navbar-brand {
+    font-size: 1.7em;
+    color: #d73038;
+  }
+  .hidden {
+    display: none;
+  }
+  a,
+  a:hover,
+  a:focus {
+    color: inherit;
+    text-decoration: none;
+    transition: all 0.3s;
+  }
+  #sidebar,
+  .nav-link {
+    /* don't forget to add all the previously mentioned styles here too */
+    background: #d5e8fc;
+    color: #000;
+    transition: all 0.3s;
+  }
+  #sidebar ul.components {
+    padding: 0 0 20px 0;
+    border-bottom: 1px solid #d5e8fc;
+  }
+  #sidebar ul li a {
+    padding: 10px;
+    font-size: 1.1em;
+    display: block;
+  }
+  #sidebar ul div a:hover,
+  #sidebar ul div.active > a,
+  a[aria-expanded="true"] {
+    color: #fff;
+    background: #477cb2;
+  }
+  ul ul a {
+    font-size: 0.9em !important;
+    padding-left: 30px !important;
+    background: #d5e8fc;
+  }
+  .row {
+    --bs-gutter-x: 0;
+    /* height: 500px; */
+  }
+  .wrapper {
+    display: flex;
+    align-items: stretch;
+  }
+  .btn-clipboard {
+    font-family: "Barlow Condensed", serif;
+  }
+  #sidebar {
+    min-width: 250px;
+    width: 100%;
+    /* max-width: 250px; */
+    /*min-height: 100vh;*/
+  }
+  
+  #sidebar.active {
+    margin-left: -250px;
+    /* display: none; */
+  }
+  a[data-bs-toggle="collapse"] {
+    position: relative;
+  }
+  .list-unstyled {
+    font-size: 1.2em;
+    letter-spacing: 2px;
+    text-align: center;
+  }
+  .dropdown-toggle::after {
+    display: block;
+    position: absolute;
+    top: 50%;
+    right: 20px;
+    transform: translateY(-50%);
+  }
+  
+  .nav-pills .nav-link.active,
+  .nav-pills .nav-link:hover,
+  .nav-link:hover {
+    background-color: #477cb2;
+    color: #fff;
+    border-radius: 0;
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    -ms-border-radius: 0;
+    -o-border-radius: 0;
+  }
+  
+  .bd-lead,
+  .bd-example,
+  .intro {
+    font-family: "Barlow Condensed";
+    font-weight: 400;
+  }
+  
+  .bd-clipboard {
+    position: relative;
+    display: block;
+    float: right;
+  }
+  
+  .btn-clipboard {
+    position: absolute;
+    top: 0.65rem;
+    right: 0.65rem;
+    z-index: 10;
+    display: block;
+    padding: 0.25rem 0.5rem;
+    border-radius: 0.25rem;
+  }
+  
+  .btn-clipboard:hover,
+  .list-group-item.li-active {
+    background-color: #477cb2;
+    color: #fff;
+  }
+  .code-container {
+    background: #282c34;
+    color: #fff;
+    padding-right: 10%;
+  }
+  
+  .chroma .na {
+    color: #cf9700;
+  }
+  
+  .chroma .nt {
+    color: #d73038;
+  }
+  
+  .chroma .s {
+    color: #54d200;
+  }
+  
+  /* Artem CSS */
+  
+  .colors-container,
+  .table {
+    max-width: 800px;
+    min-width: 650px;
+    margin-left: 0%;
+  }
+  
+  .circleFigure {
+    margin-top: 3%;
+    margin-right: 1%;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+  }
+  
+  .container-grid {
+    margin-bottom: 5%;
+    background: #477cb2;
+    width: 800px;
+    border: #106184 solid 8px;
+    margin-left: 0%;
+  }
+  
+  .col-border {
+    border-right: #106184 solid 2px;
+  }
+  
+  /*FONTS*/
+  .desc {
+    font-family: "Barlow Condensed";
+    color: #707070;
+    font-size: 0.8rem;
+    text-align: center;
+    font-weight: 400;
+  }
+  
+  .textHeading1 {
+    font-size: 60px;
+    font-weight: bold;
+    margin-top: 5%;
+    margin-bottom: 5%;
+  }
+  
+  .textHeading2 {
+    font-size: 40px;
+    font-family: "Barlow Condensed";
+    color: #707070;
+    margin-top: 8%;
+    margin-bottom: 5%;
+  }
+  
+  p {
+    font-size: 20px;
+    font-family: "Barlow Condensed";
+    color: #707070;
+    font-weight: 400;
+    max-width: 800px;
+  }
+  .textBody {
+    font-size: 20px;
+    font-family: "Barlow Condensed";
+    color: #707070;
+    font-weight: 400;
+    max-width: 800px;
+  }
+  
+  .textBodyBold {
+    font-size: 20px;
+    font-family: "Barlow Condensed";
+    font-weight: bold;
+    color: black;
+  }
+  
+  .textChart {
+    font-size: 20px;
+    font-family: "Markazi Text", serif;
+    font-weight: normal;
+  }
+  .textStackedBarChart {
+  
+    font-size: 15px;
+    font-family: "Markazi Text", serif;
+    font-weight: bolder;
+  
+  }
+  .textMenu {
+    font-family: "Dancing Script";
+    font-size: 40px;
+    font-weight: bold;
+    opacity: 0.5;
+  }
+  
+  .colDesc {
+    margin-top: 6%;
+    line-height: 0.9;
+  }
+  
+  tbody {
+    border-style: hidden;
+    vertical-align: baseline;
+  }
+  
+  th > h1,
+  th > h2 {
+    margin: 0 !important;
+  }
+  tr {
+    height: 110px;
+    margin-bottom: 0;
+    vertical-align: middle;
+  }
+  
+  /*COLORS*/
+  .colorCanJetRed {
+    background: #ed1c24;
+  }
+  
+  .colorOrange {
+    background: #ec9a29;
+  }
+  
+  .colorSteelBlue {
+    background: #477cb2;
+  }
+  
+  .colorMaroon {
+    background: #821214;
+  }
+  
+  .colorSapphire {
+    background: #106184;
+  }
+  
+  .colorGoldenBrown {
+    background: #a76a23;
+  }
+  
+  .colorPalePink {
+    background: #fbdadc;
+  }
+  
+  .colorBeauBlue {
+    background: #d5e8fc;
+  }
+  
+  .colorCultured {
+    background: #f2f2f4;
+  }
+  
+  .colorBlack {
+    background: #000000;
+  }
+  
+  .colorGrey {
+    background: #707070;
+  }
+  
+  .colorWhite {
+    border: solid 0.1px black;
+    opacity: 0.2;
+    background: #ffffff;
+  }
+  
+  /* Tingting CSS */
+  
+  .chartStyleName {
+    margin-top: 3%;
+    margin-bottom: 3%;
+  }
+  .chartStyleDiv {
+    display: flex;
+    gap: 3%;
+    flex-wrap: wrap;
+  }
+  
+  .chartCard {
+    width: 700px;
+    margin-bottom: 3%;
+  }
+  
+  .imgWrap {
+    width: 100%;
+    height: 350px;
+    background-color: #f2f2f4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  #v-pills-tabContent {
+    padding-left: 10%;
+    padding-right: 10%;
+  }
+  
+  /* Tingting CSS Ends */
+  
+  /* Quinnie Css */
+  .tab-content.bd-content.col-md-10 {
+    padding-left: 30px;
+  }
+  .button {
+    color: #000;
+    background-color: #f2f2f4;
+    font-weight: 500;
+    font-family: "Barlow Condensed";
+    font-size: 1.2rem;
+    border: solid #000 1px;
+    padding: 7px 16px;
+    border-radius: 50px;
+  }
+  .button:hover {
+    color: #f2f2f4;
+    background-color: #707070;
+    border: solid #707070 1px;
+  }
+  .btn-important {
+    color: #fff;
+    background-color: #ed1c24;
+    border: solid #ed1c24 1px;
+  }
+  .btn-important:hover {
+    color: #fff;
+    background-color: #ed1c24;
+    border: solid #ed1c24 1px;
+  }
+  .btn-action {
+    color: #fff;
+    background-color: #477cb2;
+    border: solid #477cb2 1px;
+  }
+  .btn-action:hover {
+    color: #fff;
+    background-color: #106184;
+    border: solid #106184 1px;
+  }
+  .btn-warning {
+    color: #821214;
+    background-color: #ec9a29;
+    border: solid #ec9a29 1px;
+  }
+  .btn-warning:hover {
+    color: #fff;
+    background-color: #a76a23;
+    border: solid #a76a23 1px;
+  }
+  .btn-sample-container .group-button {
+    margin-top: 20px;
+    margin-left: 20px;
+  }
+  .btn-sample-container .group-button button {
+    margin-right: 5px;
+  }
+  /* Select css- Quinnie*/
+  .select-code-container p {
+    font-family: "Barlow Condensed";
+    font-size: 1.25rem;
+    margin-bottom: 0 !important;
+  }
+  .select-sample-container .select-type {
+    font-family: "Barlow Condensed";
+    font-size: 1.25rem;
+    font-weight: 600;
+  }
+  .select-sample-container .select {
+    margin-left: 20px;
+    margin-bottom: 20px;
+  }
+  .select select {
+    font-family: "Barlow Condensed";
+    font-size: 1.2rem;
+    background-color: #fff;
+    border: solid 1px #707070;
+    padding: 7px 15px;
+  }
+  .info-select select optgroup {
+    font-size: 1.25rem;
+    font-weight: 600;
+    color: #106184;
+  }
+  .info-select select option {
+    font-size: 1.2rem;
+    color: #000;
+  }
+  .select select.error {
+    border: solid 2px #821214;
+    color: #821214;
+  }
+  .select .error-msg {
+    color: #821214;
+    font-weight: 600;
+    padding: 5px 0 0 5px;
+  }
+  /* Quinnie CSS end */
+  
+  /* Dan Vu CSS */
+  
+  .flexDivRight {
+    display: flex;
+    justify-content: end;
+    overflow: hidden;
+  }
+  
+  .flexDivCenter {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .code {
+    padding: 1px;
+    color: #d63384;
+    font-weight: 400;
+  }
+  
+  #v-pills-images img {
+    width: 400px;
+    height: auto;
+    margin-top: 10px;
+    margin-bottom: 35px;
+  }
+  
+  .banner {
+    width: 100% !important;
+  }
+  
+  .menuContainer {
+    background-color: #d5e8fc;
+    width: 100%;
+    max-width: 600px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+  
+  .menuContainer ul {
+    list-style: none;
+    margin-bottom: 0px;
+    display: flex;
+    align-items: center;
+  }
+  
+  .menuContainer ul a {
+    font-size: 1.5em;
+    margin-right: 10px;
+    padding: 0px 10px;
+    color: #000000;
+    opacity: 100%;
+  }
+  
+  .menuContainer ul a:hover {
+    color: #fff;
+    background: #477cb2;
+    opacity: 100%;
+  }
+  
+  .menuContainer img {
+    height: 70px;
+    width: auto;
+  }
+  
+  .flexUl {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .flexUl div {
+    display: flex;
+  }
+  
+  .menuContainerSide {
+    background-color: #d5e8fc;
+    width: 100%;
+    max-width: 200px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    height: 500px;
+  }
+  
+  .menuContainerSide ul {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0px 0px 0px 0px;
+    margin-top: 20px;
+  }
+  
+  .menuContainerSide ul a {
+    font-size: 1.5em;
+    padding: 0px 10px;
+    color: #000000;
+    opacity: 100%;
+  }
+  
+  .menuContainerSide ul a:hover {
+    color: #fff;
+    background: #477cb2;
+    opacity: 100%;
+  }
+  
+  /* End of Dan Vu CSS */
+  
+  @media (max-width: 768px) {
+    .navbar-light .navbar-brand {
+      font-size: 1.5rem;
+    }
+    #sidebar {
+      width: 100%;
+      margin-left: 0;
+      position: absolute;
+      /* z-index: 99; */
+    }
+  
+    #sidebar.active {
+      margin-left: -100%;
+      max-width: 100%;
+      width: 100%;
+    }
+    #chart3Icons {
+      width: 100%;
+      display: block;
+      visibility: visible;
+    }
+    #chart3Icons ul li img.c3Icon {
+      margin: 3% !important;
+      float: left;
+      width: 13%;
+      height: 13%;
+    }
+  
+    #chart3dd {
+      display:none
+    }
+  
+  
+  #subtitleC3{
+  
+    display:block;
+    }
+  
+  }
+  @media (max-width: 450px) {
+    .navbar-light .navbar-brand {
+      font-size: 1.0rem;
+      }
+      .textHeading1{
+        font-size: 1.5rem;
+  
+      }
+    }
